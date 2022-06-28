@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.bembeny.dnd
+testFramework: spock
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jpa, gradle, hibernate-jpa, http-client, jackson-databind, java, java-application, jdbc-hikari, logback, lombok, micronaut-build, netty-server, openapi, postgres, properties, readme, shade, spock, swagger-ui, testcontainers]
