@@ -10,6 +10,9 @@ group = "com.bembeny.dnd"
 repositories {
     mavenCentral()
 }
+ext {
+    vavrVersion = "0.10.4"
+}
 
 dependencies {
     annotationProcessor("org.projectlombok:lombok")
@@ -30,6 +33,7 @@ dependencies {
     testImplementation("org.testcontainers:spock")
     testImplementation("org.testcontainers:testcontainers")
     implementation("io.micronaut:micronaut-validation")
+    implementation group: 'io.vavr', name: 'vavr', version: "${vavrVersion}"
 
 }
 
